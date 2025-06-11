@@ -181,6 +181,7 @@ dependencies {
     implementation fg.deobf("dev.architectury:architectury-forge:${architectury_version}")
     implementation fg.deobf("software.bernie.geckolib:geckolib-${geckolib_version}")
     implementation fg.deobf("curse.maven:ibe-editor-256822:4994072")
+    implementation fg.deobf("curse.maven:probejs-585406:5227399")
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
